@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="700" viewBox="0 0 800 700">
+  <title>Illustration of an oval olive tray</title>
+  <ellipse cx="400" cy="477" rx="284" ry="81" fill="#443322" opacity=".09"/>
+  <ellipse cx="400" cy="365" rx="292" ry="168" fill="#5c6244"/>
+  <ellipse cx="400" cy="346" rx="292" ry="168" fill="#8b9271"/>
+  <ellipse cx="400" cy="346" rx="244" ry="125" fill="#747c58"/>
+  <path d="M161 327 C199 213 577 184 643 324" fill="none" stroke="#b3b79b" stroke-width="9"/>
+  <path d="M200 371 Q400 516 607 374" fill="none" stroke="#626b47" stroke-width="8"/>
+</svg>

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "cup",
+    "src": "/assets/cup.svg",
+    "alt": "Illustration of an amber ceramic cup with a curved handle",
+    "width": 800,
+    "height": 700,
+    "transparent": true,
+    "purpose": "Hero and product detail; preserve the full handle and leave breathing room above the rim.",
+    "kind": "synthetic vector illustration, not product photography"
+  },
+  {
+    "id": "tray",
+    "src": "/assets/tray.svg",
+    "alt": "Illustration of an oval olive tray viewed from above",
+    "width": 800,
+    "height": 700,
+    "transparent": true,
+    "purpose": "Secondary product; retain the oval silhouette and do not imply an unprovided size.",
+    "kind": "synthetic vector illustration, not product photography"
+  }
+]

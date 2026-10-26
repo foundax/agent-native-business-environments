@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Still Objects — Quiet mornings</title>
+    <meta name="description" content="A fictional collection of everyday ceramics. Explore this local business environment demo.">
+    <link rel="stylesheet" href="/style.css">
+    <script type="module" src="/app.js"></script>
+  </head>
+  <body>
+    <a class="skip" href="#collection">Skip to collection</a>
+    <div class="demo-note">A fictional shop · Local demonstration · No payment will be taken</div>
+    <header>
+      <a class="wordmark" href="/">Still Objects<span>Objects for the everyday.</span></a>
+      <nav aria-label="Main"><a href="#collection">The collection ↗</a><a href="#care">Delivery & returns</a></nav>
+    </header>
+    <main>
+      <section class="hero" aria-labelledby="headline">
+        <div class="hero-copy">
+          <p class="eyebrow">Collection 01 / A little room to pause</p>
+          <h1 id="headline">Small objects.<br><em>Slower mornings.</em></h1>
+          <p class="intro">A cup, a tray, a moment of your own. Make a little space for the rituals you return to.</p>
+          <a class="text-link" href="#collection">Meet your everyday companions <span>↓</span></a>
+        </div>
+        <figure class="hero-art">
+          <div class="circle" aria-hidden="true"></div>
+          <img id="hero-image" src="/assets/cup.svg" alt="Illustration of an amber ceramic cup" width="800" height="700">
+          <figcaption>01 — The morning ritual <span>Illustrated collection</span></figcaption>
+        </figure>
+      </section>
+      <section class="collection" id="collection" aria-labelledby="collection-title">
+        <div class="section-heading">
+          <div><p class="eyebrow">Fewer things. More meaning.</p><h2 id="collection-title">Keep close.</h2></div>
+          <p id="offer" aria-live="polite">Loading the collection…</p>
+        </div>
+        <p id="load-error" role="alert" hidden></p>
+        <div id="products" class="products"></div>
+        <div class="receipt" aria-live="polite"><p id="receipt"></p></div>
+        <button class="refresh" id="refresh" type="button">Refresh prices & availability</button>
+      </section>
+      <section class="care" id="care" aria-labelledby="care-title">
+        <p class="eyebrow">The practical details</p>
+        <h2 id="care-title">Good to know.</h2>
+        <div class="care-details"><p id="shipping">Delivery details load with the collection.</p><p id="returns"></p></div>
+      </section>
+    </main>
+    <footer><span>Still Objects</span><p>A working example from Foundax.<br>All products and policies are fictional.</p></footer>
+  </body>
+</html>

@@ -1,0 +1,36 @@
+{
+  "expectedRevision": 0,
+  "operations": [
+    {
+      "domain": "products",
+      "value": {
+        "id": "cup",
+        "title": "Morning cup",
+        "description": "A quiet companion for the first pause of the day.",
+        "priceMinor": 2400,
+        "stock": 12,
+        "mediaId": "cup",
+        "returnPolicyId": "standard"
+      }
+    },
+    {
+      "domain": "shippingPolicies",
+      "value": { "id": "gb-standard", "country": "GB", "feeMinor": 500, "deliveryDays": "3–5" }
+    },
+    {
+      "domain": "promotions",
+      "value": { "id": "opening", "percent": 10, "productIds": ["cup", "tray"] }
+    },
+    {
+      "domain": "campaigns",
+      "value": {
+        "id": "quiet-mornings",
+        "title": "Small objects. Slower mornings.",
+        "country": "GB",
+        "productIds": ["cup", "tray"],
+        "shippingPolicyId": "gb-standard",
+        "promotionId": "opening"
+      }
+    }
+  ]
+}

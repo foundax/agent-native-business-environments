@@ -1,0 +1,24 @@
+{
+  "revision": 0,
+  "shop": { "id": "studio", "name": "Still Objects", "currency": "GBP" },
+  "products": [
+    {
+      "id": "tray",
+      "title": "Everyday tray",
+      "description": "A small resting place for the objects you reach for each day.",
+      "priceMinor": 3200,
+      "stock": 8,
+      "mediaId": "tray",
+      "returnPolicyId": "standard"
+    }
+  ],
+  "shippingPolicies": [
+    { "id": "ie-standard", "country": "IE", "feeMinor": 600, "deliveryDays": "4–7" }
+  ],
+  "returnPolicies": [
+    { "id": "standard", "days": 30, "description": "Unused items may be returned within 30 days." }
+  ],
+  "promotions": [],
+  "campaigns": [],
+  "orders": []
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "domain": "products",
+    "summary": "Prices, stock, media and return-policy references; money uses integer minor units.",
+    "contract": "docs/domains/catalog.md",
+    "dependsOn": ["returnPolicies", "media"]
+  },
+  {
+    "domain": "shippingPolicies",
+    "summary": "Country coverage and a flat per-order fee. Existing coverage does not include GB.",
+    "contract": "docs/domains/fulfillment.md",
+    "dependsOn": []
+  },
+  {
+    "domain": "returnPolicies",
+    "summary": "Merchant-provided return terms; reused by product reference.",
+    "contract": "docs/domains/fulfillment.md",
+    "dependsOn": []
+  },
+  {
+    "domain": "promotions",
+    "summary": "Percentage discounts for explicit products. Campaign references select one promotion.",
+    "contract": "docs/domains/campaigns.md",
+    "dependsOn": ["products"]
+  },
+  {
+    "domain": "campaigns",
+    "summary": "A target country, selected products, shipping policy and promotion form one launch surface.",
+    "contract": "docs/domains/campaigns.md",
+    "dependsOn": ["products", "shippingPolicies", "promotions"]
+  }
+]

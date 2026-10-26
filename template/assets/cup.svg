@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="700" viewBox="0 0 800 700">
+  <title>Illustration of an amber ceramic cup</title>
+  <ellipse cx="381" cy="581" rx="200" ry="21" fill="#443322" opacity=".09"/>
+  <path d="M530 260 C720 205 720 489 538 460" fill="none" stroke="#8b492a" stroke-width="45"/>
+  <path d="M195 230 L223 487 Q236 583 389 587 Q530 580 549 486 L577 230Z" fill="#ac6037"/>
+  <path d="M229 254 L251 470 Q256 518 293 538" fill="none" stroke="#c98453" stroke-width="22"/>
+  <ellipse cx="386" cy="230" rx="191" ry="65" fill="#d6945c"/>
+  <ellipse cx="386" cy="231" rx="158" ry="43" fill="#6c3b26"/>
+  <path d="M253 210 Q385 160 520 211" fill="none" stroke="#eab883" stroke-width="6"/>
+</svg>
